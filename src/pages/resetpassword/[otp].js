@@ -72,13 +72,13 @@ function Reset() {
         newPassword: password,
         confirmPassword: confirm,
       })
-      .then((res) => toast.success(res.data.msg))
+      .then((res) => toast.success(res.data.msg),
+      router.push("/login"))
       .catch(
         (err) => (
           setInput(false),
           setInputpending(false),
-          toast.error(err.response.data.msg),
-          router.push("/login")
+          toast.error(err.response.data.msg)
         )
       );
   };
