@@ -33,7 +33,7 @@ function Resetpassword() {
             )
         axios.post(`https://fazzpay-rose.vercel.app/auth/forgot-password`, {
             email,
-            linkDirect: "http://localhost:3000/resetpassword"
+            linkDirect: "https://fazz-pay-tau.vercel.app/resetpassword"
         })
             .then((res) =>
                 toast.success(res.data.msg)
