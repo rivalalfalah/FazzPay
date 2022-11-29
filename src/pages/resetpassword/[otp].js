@@ -77,7 +77,8 @@ function Reset() {
         (err) => (
           setInput(false),
           setInputpending(false),
-          toast.error(err.response.data.msg)
+          toast.error(err.response.data.msg),
+          router.push("/login")
         )
       );
   };
