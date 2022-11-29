@@ -59,8 +59,7 @@ function Index() {
       const getToken = Cookies.get("token");
       const getId = Cookies.get(`id`);
       dispatch(authActions.userThunk(getToken, getId));
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-   }, []);
+   }, [dispatch]);
 
    useEffect(() => {
       const getToken = Cookies.get("token");

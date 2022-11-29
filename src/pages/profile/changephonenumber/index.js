@@ -76,6 +76,7 @@ function ChangePhoneNumber() {
                       maxLength={12}
                       pattern="[0-9]{12}"
                       onChange={valueNumber}
+                      value= {phoneNumber}
                       required
                     />
                   </span>

@@ -62,11 +62,11 @@ function Login() {
         Cookies.set("id", response.data.data.id);
         Cookies.set("token", response.data.data.token);
         toast.success("Success Login");
-        const getToken = Cookies.get("token")
-        const getId = Cookies.get("id")
-         dispatch(authActions.userThunk(getToken,getId));
+        // const getToken = Cookies.get("token")
+        // const getId = Cookies.get("id")
+        //  dispatch(authActions.userThunk(getToken,getId));
         setTimeout(() => {
-          if (Cookies.get("pin") === "null") {
+          if (!response.data.data.pin) {
             return router.replace("/pin");
           } else {
             return router.replace("/home");
