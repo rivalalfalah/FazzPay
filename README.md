@@ -82,9 +82,8 @@ Website : [Click Here](https://fazzpay-money.vercel.app/)
 <table border="2">
     <div align="center">
         <img width="300" height="200" src="./src/assets/readme/fazzpay_dashboard.png">
-        <img width="300" height="200" src="./src/assets/readme/fazzpay_tf.png">
-        <img width="300" height="200" src="./src/assets/readme/fazzpay_history.png">
-        <img width="300" height="200" src="./src/assets/readme/fazzpay_tf.png">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_profile.png">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_login.png">
     </div>
 </table>
 
