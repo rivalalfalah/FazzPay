@@ -116,8 +116,8 @@ function Changepassword() {
       )
       .catch(
         (err) => (
-          setInput(false),
-          setInputpending(false),
+          setInput(true),
+          setInputpending(true),
           setInput_(false),
           setInputpending_(false),
           setInput__(false),

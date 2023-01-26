@@ -68,6 +68,12 @@ function TransferID() {
   };
 
   const clickHandler = () => {
+    if(price === "") {
+      return toast.error("input amount")
+    }
+    if(price < 10000) {
+      return toast.error("minimum RP. 10.000")
+    }
     if (profile.balance < price) {
       return toast.error("overlimit");
     }

@@ -1,34 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"><u>Fazzpay 💳</u></h1>
+<p align="left">
+<h2>Built with</h2>
+</p>
 
-## Getting Started
+[![Requirements](https://skillicons.dev/icons?i=react,next)](https://skillicons.dev)
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [How to Run App](#how-to-run-the-application)
+- [Usage](#Development)
+- [Screenshots](#screenshots)
+- [Related Project](#related-project)
+
+## Introduction
+
+<h3>Fazzpay</h3>
+<p>Fazzpay adalah dompet digital yang memiliki beberapa kegunaan, termasuk untuk online transaksi. Fazzpay juga bisa digunakan untuk menyimpan uang lalu mentransfernya ke rekening.</p>
+
+## Features
+
+- Login
+- Register
+- Forgot Password
+- Edit profile
+- Dashboard
+- Topup
+- Transfer
+- Transfer History
+
+## Requirements
+
+[![Requirements](https://skillicons.dev/icons?i=figma,vscode,vercel)](https://skillicons.dev)
+
+## How to Run the Application
+
+### 1. Clone this repository
+
+Clone this repository by run the following code:
+
+```
+git clone https://github.com/rivalalfalah/FazzPay.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependency packages
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Install dependency packages by run the following code inside project folder:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
+npm install
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 3. Configure .env file
 
-## Learn More
+Configure .env file by create file named .env inside project folder 
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Run projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run this projects by run the following code:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run start
+```
 
-## Deploy on Vercel
+It runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+Website : [Click Here](https://fazzpay-money.vercel.app/)
+
+## Screenshots App
+
+<table border="2">
+    <div align="center">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_dashboard.png">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_tf.png">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_history.png">
+        <img width="300" height="200" src="./src/assets/readme/fazzpay_tf.png">
+    </div>
+</table>
+
+## Related Project
+
+
+- Backend FazzPay [`here`](https://documenter.getpostman.com/view/23706970/2s8ZDR8RFJ)
+
+<p align="center"><sub><b>&copy;2022❤️Fazzpay☕</b></sub></p>
